@@ -1,0 +1,226 @@
+:root {
+  --main-color-text: #2e2f42;
+  --second-color-text: #434455;
+  --accent-color: #404bbf;
+  --color-on-dark: #f4f4fd;
+  --background-button: #404bbf;
+  --background-color: #fff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+.header-nav {
+}
+.nav-link {
+  color: var(--main-color-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contact-link {
+
+}
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-light {
+  color: var(--main-color-text);
+
+}
+.adress {
+font-style: normal;
+}
+.header-list-item {
+}
+.list-adress {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contact-link {
+  color: var(--second-color-text);}
+.contact-link:focus,
+.contact-link:hover{
+  color: var(--background-button);
+ }
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--accent-color);
+}
+/**
+  |============================
+  | HERO
+  |============================
+*/
+.hero-section {
+  background: var(--main-color-text);
+}
+.hero-section-h-one {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  color: var(--background-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-btn:focus,
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+/**
+  |============================
+  | BENEFITS
+  |============================
+*/
+.benefits-section {
+}
+.benefits-h-two {
+}
+.benefits-list-item {
+}
+.benefits-h-three {
+  color: var(--main-color-text);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | PRODUCTS
+  |============================
+*/
+.product-section {
+}
+.product-h-two {
+  color: var(--main-color-text);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.product-list-item {
+}
+/**
+  |============================
+  | OUR TEAM
+  |============================
+*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  color: var(--main-color-text);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list-item {background-color: #ffffff;
+}
+.team-title-name {
+  background-color: #ffffff;
+  color: var(--main-color-text);
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-list-text {
+  color: var(--second-color-text);
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer {
+  background: var(--main-color-text);
+}
+.footer-logo-dark {
+  color: var(--color-on-dark);
+}
+.footer-text {
+  color: var(--color-on-dark);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+.portfolio-btn{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer; 
+}
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: #ffffff;
+  background-color: var(--background-button);
+}
+.service-list-item {
+}
+.service {
+}
+.service-caption {
+  color: var(--main-color-text);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.service-descr {
+  color: var(--second-color-text);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
